@@ -1,0 +1,13 @@
+Acceptance Criteria:
+- It should input the user to provide their data for the following fields:
+	Full Name
+	Email (Include valid email validation)
+	Current Address
+	Permanent Address
+
+- User should be able to send their data when clicking on the Submit button and as a result, it should be displayed at the bottom of the page;
+
+Test cases:
+- Fill Full Name, Email, Current Address, Permanent Address and click Submit. User info should be displayed at the text box at the bottom of the page;
+- Do not fill any of the listed fields and click on Submit. No user info should be displayed;
+- User fills out valid Name, Current Address and Permanent while providing incorrect email. It should be flagged to the user that the email is incorrect;
